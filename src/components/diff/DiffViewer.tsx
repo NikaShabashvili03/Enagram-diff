@@ -1,7 +1,5 @@
-import React from 'react';
-import { RotateCcw, ArrowLeftRight } from 'lucide-react';
+import { ArrowLeftRight } from 'lucide-react';
 import { TextDisplayOld } from './TextDisplayOld';
-import useDiffStore from '../../stores/useDiffStore';
 import { TextDisplayNew } from './TextDisplayNew';
 import type { IDiffPart } from '../../types';
 

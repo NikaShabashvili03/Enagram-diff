@@ -1,4 +1,3 @@
-import React from 'react'
 import DiffViewer from '../components/diff/DiffViewer'
 import useDiffStore from '../stores/useDiffStore';
 import { RotateCcw } from 'lucide-react';
