@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "Helvetica";
+  src: url('/assets/fonts/Helvetica.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+@theme {
+  --font-helvetica: "Helvetica", sans-serif;
+}
+
+
+* {
+  font-family: var(--font-helvetica);
+}
